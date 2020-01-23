@@ -1,0 +1,23 @@
+{
+  "name": "vtm5-dice",
+  "version": "1.0.0",
+  "description": "Bot that rolls dice following the Vampire: The Masquerade 5e ruleset.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntiasKing/VtM5-dice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntiasKing/VtM5-dice/issues"
+  },
+  "homepage": "https://github.com/AntiasKing/VtM5-dice#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}

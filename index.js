@@ -69,7 +69,7 @@ client.on('message', msg => {
           let nbDices = parseInt(array[1]);
           let nbBloodDices = array[3] ? parseInt(array[3]) : null;
           let threshold = array[4] ? parseInt(array[4]) : null;
-          if (isNaN(nbDices) || isNaN(nbBloodDices) || isNaN(threshold) || nbDices > 100 || nbBloodDices > nbDices || threshold > 100)
+          if (isNaN(nbDices) || isNaN(nbBloodDices) || isNaN(threshold) || nbDices > 100 || threshold > 100)
             return msg.reply("Calme toi pauve con·ne.")
           if (nbDices < 0 || nbDices === 0)
             return msg.reply("LOL.");
